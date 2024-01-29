@@ -10,7 +10,7 @@ This project use Options API. If you want to use Composition API, please see [vu
 # git clone this repository
 # cd into this repository
 cd ./vue2
-npm install
+npm install # npm version >= 7
 ```
 
 ### Compiles and hot-reloads for development

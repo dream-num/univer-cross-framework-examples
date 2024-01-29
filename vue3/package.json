@@ -9,16 +9,19 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "engines": {
+    "npm": ">=7.0.0"
+  },
   "dependencies": {
-    "@univerjs/core": "^0.1.0-beta.3",
-    "@univerjs/design": "^0.1.0-beta.3",
-    "@univerjs/docs": "^0.1.0-beta.3",
-    "@univerjs/engine-formula": "^0.1.0-beta.3",
-    "@univerjs/engine-render": "^0.1.0-beta.3",
-    "@univerjs/sheets": "^0.1.0-beta.3",
-    "@univerjs/sheets-formula": "^0.1.0-beta.3",
-    "@univerjs/sheets-ui": "^0.1.0-beta.3",
-    "@univerjs/ui": "^0.1.0-beta.3",
+    "@univerjs/core": "*",
+    "@univerjs/design": "*",
+    "@univerjs/docs": "*",
+    "@univerjs/engine-formula": "*",
+    "@univerjs/engine-render": "*",
+    "@univerjs/sheets": "*",
+    "@univerjs/sheets-formula": "*",
+    "@univerjs/sheets-ui": "*",
+    "@univerjs/ui": "*",
     "vue": "^3.3.11"
   },
   "devDependencies": {
