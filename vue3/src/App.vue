@@ -7,26 +7,17 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import UniverSheet from './components/UniverSheet.vue'
 import { DEFAULT_WORKBOOK_DATA } from './assets/default-workbook-data'
+import { ref } from 'vue';
 
-export default {
-  name: 'App',
-  components: {
-    UniverSheet
-  },
-  data () {
-    return {
-      data: DEFAULT_WORKBOOK_DATA
-    }
-  },
-  methods: {
-    getData () {
-      const result = this.$refs.univerRef?.getData();
-      console.log(JSON.stringify(result, null, 2));
-    }
-  }
+const data = ref(DEFAULT_WORKBOOK_DATA);
+const univerRef = ref(null);
+
+const getData = () => {
+  const result = univerRef.value?.getData();
+  console.log(JSON.stringify(result, null, 2));
 }
 </script>
 

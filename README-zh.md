@@ -12,6 +12,6 @@ Univer 是一款功能强大且灵活的套件，它可以在 Vue 、 React、 A
 ## 使用
 
 - [x] [Vue 2](./vue2)
-- [ ] Vue 3
+- [x] [Vue 3](./vue3)
 - [ ] React
 - [ ] Angular

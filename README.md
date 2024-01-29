@@ -12,6 +12,6 @@ Univer is a versatile and flexible package that can be used with Vue, React, Ang
 ## Usage
 
 - [x] [Vue 2](./vue2)
-- [ ] Vue 3
+- [x] [Vue 3](./vue3)
 - [ ] React
 - [ ] Angular

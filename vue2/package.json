@@ -1,6 +1,6 @@
 {
   "name": "using-univer-with-vue2",
-  "description": "Using Univer with Vue 2",
+  "description": "The example project of using Univer with Vue 2",
   "version": "0.1.0",
   "private": true,
   "scripts": {
